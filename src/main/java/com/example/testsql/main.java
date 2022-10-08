@@ -22,6 +22,7 @@ public class main {
 
             while (true){
                 String str = sc.nextLine();
+                System.out.println();
                 System.out.println("Клиент написал: " + str);
                 if (str.equals("/end")){
                     break;
